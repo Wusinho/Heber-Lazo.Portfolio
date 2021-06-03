@@ -27,6 +27,11 @@
       rel="stylesheet"
       type="text/css"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
   </head>
@@ -80,22 +85,43 @@
         <div class="row">
           <div class="col-lg-6 p-0">
             <img
-              class="masthead-avatar"
+              class="masthead-avatar animate__animated animate__fadeIn"
               id="my_pic"
               src="./assets/img/portfolio/lazobenza.jpeg"
               alt="..."
             />
           </div>
 
-          <div class="col-lg-6 p-0">
+          <div class="col-lg-6 p-0 animate__animated animate__slideInRight">
             <p class="masthead-subheading font-weight-light mb-0">About Me</p>
-            <p class="m-0 pt-4" id="description">
+            <p class="m-0 pt-4 d-none" id="description">
               I am a full-stack developer who loves a clean code and seeks for
               solutions. I have a diverse experience in back-end, front-end
               development, technical background, distributed systems, and smart
               contract development. The commonality that ties these products
               together is my commitment to build UI products and functionality.
             </p>
+
+            <div class="about-icons">
+              <a
+                class="social-icon mx-2"
+                target="_blank"
+                href="https://www.linkedin.com/in/heber-lazo/"
+                ><i class="fab fa-linkedin-in fa-3x"></i
+              ></a>
+              <a
+                class="social-icon mx-2"
+                target="_blank"
+                href="https://github.com/Wusinho"
+                ><i class="fab fa-github fa-3x"></i
+              ></a>
+              <a
+                class="social-icon mx-2"
+                target="_blank"
+                href="https://twitter.com/HeberLazo1"
+                ><i class="fab fa-twitter fa-3x"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
@@ -124,7 +150,7 @@
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
           <!-- Portfolio Item 1-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 0">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -154,7 +180,7 @@
             </div>
           </div>
           <!-- Portfolio Item 2-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 0">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -184,7 +210,7 @@
             </div>
           </div>
           <!-- Portfolio Item 3-->
-          <div class="col-md-6 col-lg-4 mb-5">
+          <div class="col-md-6 col-lg-4 0">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -214,7 +240,7 @@
             </div>
           </div>
           <!-- Portfolio Item 4-->
-          <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+          <!-- <div class="col-md-6 col-lg-4 0 mb-lg-0">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -244,7 +270,7 @@
             </div>
           </div> -->
           <!-- Portfolio Item 5-->
-          <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+          <!-- <div class="col-md-6 col-lg-4 0 mb-md-0">
             <div
               class="portfolio-item mx-auto"
               data-bs-toggle="modal"
@@ -348,7 +374,7 @@
       <div class="container">
         <div class="row">
           <!-- Footer Location-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-4 0 mb-lg-0">
             <h4 class="text-uppercase mb-4">Location</h4>
             <p class="lead mb-0">
               Lima-Peru
@@ -356,7 +382,7 @@
             </p>
           </div>
           <!-- Footer Social Icons-->
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-4 0 mb-lg-0">
             <h4 class="text-uppercase mb-4">Around the Web</h4>
 
             <a
@@ -378,7 +404,7 @@
               ><i class="fab fa-twitter fa-3x"></i
             ></a>
           </div>
-          <div class="col-lg-4 mb-5 mb-lg-0">
+          <div class="col-lg-4 0 mb-lg-0">
             <h4 class="text-uppercase mb-4">Contact Me</h4>
             <p class="lead mb-0">
               <a href="mailto:heberlazo@gmail.com"
@@ -441,7 +467,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/telegramBot.png"
                     alt="..."
                   />
@@ -519,7 +545,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/MovieARt.png"
                     alt="..."
                   />
@@ -602,7 +628,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/Todo-list.png"
                     alt="..."
                   />
@@ -682,7 +708,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/game.png"
                     alt="..."
                   />
@@ -751,7 +777,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/safe.png"
                     alt="..."
                   />
@@ -820,7 +846,7 @@
                   </div>
                   <!-- Portfolio Modal - Image-->
                   <img
-                    class="img-fluid rounded mb-5"
+                    class="img-fluid rounded 0"
                     src="assets/img/portfolio/submarine.png"
                     alt="..."
                   />
