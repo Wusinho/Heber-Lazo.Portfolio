@@ -11955,3 +11955,7 @@ html {
   height: 295px;
   width: auto;
 }
+
+#text-white {
+  color: white;
+}
